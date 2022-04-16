@@ -7,6 +7,7 @@ import { SortButtonComponent } from './sort-button/sort-button.component';
 import { SongItemComponent } from './song-item/song-item.component';
 import { RatingComponent } from './rating/rating.component';
 import { AddSongComponent } from './song-add-form/song-add-form.component';
+import { SquarePipe } from './square.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AddSongComponent } from './song-add-form/song-add-form.component';
     SortButtonComponent,
     SongItemComponent,
     RatingComponent,
-    AddSongComponent
+    AddSongComponent,
+    SquarePipe
   ],
   imports: [
     BrowserModule,

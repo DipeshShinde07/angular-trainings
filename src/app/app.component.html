@@ -1,6 +1,6 @@
 <!-- <super-tune-header></super-tune-header> -->
 
-<h1>SuperTune - Songs of the week</h1>
+<!-- <h1>SuperTune - Songs of the week</h1>
 <hr>
 <sort-button (click)="SortByName()" displayText="Sort by Song Name" otherThing="asdfsaf"></sort-button>
 <sort-button (click)="SortByRating()" displayText="Sort by Rating"></sort-button>
@@ -10,7 +10,7 @@
 <song-item *ngFor="let song of GetSongs();let i = index" imageurl="{{song.image}}" songname="{{song.name}}"
     rating="{{song.rating}}" (onRatingChange)="SongRatingChange($event,i)"></song-item>
 
-<span *ngFor="let song of songs">{{song.name}} ---- {{song.rating}};;;;;;;</span>
+<span *ngFor="let song of songs">{{song.name}} ---- {{song.rating}};;;;;;;</span> -->
 
 <!-- <sort-button displayText="Sort by Title" otherThing="asdfsaf"></sort-button>
 <sort-button displayText="Sort by Artist"></sort-button>
@@ -20,15 +20,12 @@
 <song-item imageurl="https://picsum.photos/200/300" songname="Ohter sadf" rating="2"></song-item>
  -->
 
-
 <!-- <button class="{{fetching?'loading':''}}" (click)="FetchData()"> sadfsadf </button>
 
  <button ></button>
  <song-item *ngIf="fetching" imageurl="https://picsum.photos/200/300" songname="Ohter sadf" rating="2">
 
  </song-item> -->
-
-
 
 <!-- <div *ngFor="let name of names">
 
@@ -41,8 +38,6 @@
 </div> -->
 
 <!-- <song-item *ngFor="let name of names" imageurl="https://picsum.photos/200/300" songname="Ohter sadf" rating="2"></song-item> -->
-
-
 
 <!-- <add-song-form (onFormAdd)="newSongAdded($event)"></add-song-form>
 
@@ -58,7 +53,6 @@
         {{name}}
     </span>
 </div>  -->
-
 
 <!-- <common-button text="Output expamp"></common-button> -->
 
@@ -78,3 +72,17 @@
 
 <song-item *ngFor="let song of songs;let i = index" imageurl="{{song.image}}" songname="{{song.name}}"
     rating="{{song.rating}}"></song-item> -->
+
+<h1>
+  {{ 4 | square: "-" }}
+</h1>
+
+<h1>
+  {{ 5 | square: "=" }}
+</h1>
+
+<h1>
+  {{ 7 | square: "---->" }}
+</h1>
+
+<!-- {{34545.343 | currency:'EUR':'symbol'}} -->
