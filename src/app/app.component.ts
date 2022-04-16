@@ -43,7 +43,7 @@ export class AppComponent {
     if (this.filterText == '') {
       return this.songs
     } else {
-      return this.songs.filter(x => x.name.toLowerCase() == this.filterText.toLocaleLowerCase())
+      return this.songs.filter(x => x.name.toLowerCase().includes(this.filterText.toLocaleLowerCase()))
 
     }
   }
